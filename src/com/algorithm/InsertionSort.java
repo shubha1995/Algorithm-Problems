@@ -4,7 +4,7 @@ public class InsertionSort {
 
 	public static void main(String[] args){
 		String[] arr ={"Dellhi ","Mumbai ","Bangalore","Goa","Agartalla"};
-		int count = 0;
+
 		String sortedArray[] = sort_sub(arr, arr.length); 
 		for(int i=0;i<sortedArray.length;i++){
 			System.out.println(sortedArray[i]);
